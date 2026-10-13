@@ -1,0 +1,18 @@
+### hadoop fs -ls output
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.000s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Found 2 items
+-rw-r--r--   1 root supergroup          0 2026-10-13 21:09 /user/student/ecommerce/output/revenue_by_category/_SUCCESS
+-rw-r--r--   1 root supergroup        133 2026-10-13 21:09 /user/student/ecommerce/output/revenue_by_category/part-00000
+
+### hadoop fs -cat output/part-*
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.000s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Beauty	111032003
+Book	39306022
+Electronics	3703769311
+Fashion	218597763
+Grocery	80983147
+Home	410315065
+Sport	166194354
+Toy	83881779

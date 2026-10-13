@@ -1,0 +1,25 @@
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Connecting to namenode via http://localhost:9870/fsck?ugi=root&files=1&blocks=1&locations=1&path=%2Fuser%2Fstudent%2Fecommerce%2Finput%2Forders_2026_09.csv
+FSCK started by root (auth:SIMPLE) from /127.0.0.1 for path /user/student/ecommerce/input/orders_2026_09.csv at Tue Oct 13 21:09:12 UTC 2026
+
+/user/student/ecommerce/input/orders_2026_09.csv 121497 bytes, replicated: replication=1, 1 block(s):  OK
+0. BP-1390948651-172.28.0.12-1791925577847:blk_1073741825_1001 len=121497 Live_repl=1  [DatanodeInfoWithStorage[127.0.0.1:9866,DS-e1f3770b-6c65-4f07-9aa2-aec5705ef7f8,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	121497 B
+ Total files:	1
+ Total blocks (validated):	1 (avg. block size 121497 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	1
+ Average block replication:	1.0

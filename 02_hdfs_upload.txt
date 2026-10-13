@@ -1,0 +1,32 @@
+### hadoop fs -mkdir -p ...
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+### hadoop fs -put -f ...
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+### hadoop fs -ls
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+Found 1 items
+-rw-r--r--   1 root supergroup     121497 2026-10-13 21:08 /user/student/ecommerce/input/orders_2026_09.csv
+### hadoop fs -head
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.000s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+transaction_id,order_date,order_time,province,category,channel,quantity,unit_price,amount,status,shipping_days
+TX000001,2026-09-30,02:25:00,Ha Noi,Beauty,web,1,294947,294947,SUCCESS,2
+TX000002,2026-09-23,23:58:00,Da Nang,Grocery,mobile,1,265514,265514,SUCCESS,3
+TX000003,2026-09-05,15:38:00,Ha Noi,Electronics,partner,1,12741238,12741238,SUCCESS,3
+TX000004,2026-09-09,18:01:00,Hai Phong,Electronics,mobile,1,8846997,8846997,SUCCESS,4
+TX000005,2026-09-10,12:50:00,Hai Phong,Beauty,web,1,593405,593405,RETURNED,6
+TX000006,2026-09-11,10:10:00,Dong Nai,Home,web,1,2839709,2839709,FAILED,5
+TX000007,2026-09-13,01:19:00,Ha Noi,Beauty,web,1,839161,839161,SUCCESS,1
+TX000008,2026-09-29,13:20:00,Ha Noi,Beauty,partner,2,1061571,2123142,SUCCESS,1
+TX000009,2026-09-25,10:30:00,Binh Duong,Beauty,partner,2,411680,823360,SUCCESS,3
+TX000010,2026-09-05,20:13:00,Dong Nai,Fashion,web,1,440527,440527,SUCCESS,2
+TX000011,2026-09-17,12:28:00,Dong Nai,Home,web,1,860662,860662,SUCCESS,3
+TX000012,2026-09-22,15:08:00,Lam Dong,Electro### hadoop fs -du -h
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+118.6 K  118.6 K  /user/student/ecommerce/input/orders_2026_09.csv
